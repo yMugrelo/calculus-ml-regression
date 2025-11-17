@@ -27,7 +27,7 @@ A partir desse modelo, derivamos numericamente a função e comparamos os result
 
 ---
 
-## ⚙️ Ferramentas Utilizadas
+##  Ferramentas Utilizadas
 
 - **Python**
 - **NumPy** – operações matemáticas e vetoriais  
