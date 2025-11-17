@@ -8,7 +8,7 @@ Murilo Rosa, João Victor Hugo, Almir Rafael, Gustavo Pepece
 
 ---
 
-## 📘 Descrição do Projeto
+##  Descrição do Projeto
 
 Este trabalho tem como objetivo demonstrar como técnicas de **regressão** (linear e polinomial) podem ser aplicadas para **aproximar funções reais** e **calcular suas derivadas numericamente**.  
 A proposta une conceitos de **Cálculo Diferencial** e **Aprendizado de Máquina**, mostrando na prática como a modelagem pode estimar o comportamento de fenômenos físicos.
@@ -18,7 +18,7 @@ A partir desse modelo, derivamos numericamente a função e comparamos os result
 
 ---
 
-## 🎯 Objetivos
+##  Objetivos
 
 - Aplicar **regressão linear e polinomial** em dados experimentais.  
 - Calcular **derivadas numéricas e simbólicas** com Python.  
@@ -48,7 +48,7 @@ Murilo Rosa, João Victor Hugo, Almir Rafael, Gustavo Pepece
 
 ---
 
-## 📘 Project Description
+##  Project Description
 
 This project aims to demonstrate how **regression techniques** (linear and polynomial) can be applied to **approximate real-world functions** and **compute their derivatives numerically**.  
 It connects concepts from **Differential Calculus** and **Machine Learning**, showing how data modeling can estimate physical or mathematical phenomena.
@@ -59,7 +59,7 @@ The goal is to evaluate how well machine learning can replicate classical calcul
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Apply **linear and polynomial regression** to real or simulated data.  
 - Compute **numerical and symbolic derivatives** using Python.  
@@ -68,7 +68,7 @@ The goal is to evaluate how well machine learning can replicate classical calcul
 
 ---
 
-## ⚙️ Tools and Libraries
+##  Tools and Libraries
 
 - **Python**
 - **NumPy** – numerical computation  
