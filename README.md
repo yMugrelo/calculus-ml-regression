@@ -190,7 +190,7 @@ def train_ridge_regression(self, X_train, X_test, y_train, y_test, alpha=1.0):
 Modificando Visualizações
 As funções em visualization.py podem ser customizadas para alterar cores, estilos e layouts dos gráficos.
 
-📦 Dependências
+ Dependências
 bash
 numpy>=1.21.0
 pandas>=1.3.0
@@ -198,7 +198,7 @@ matplotlib>=3.5.0
 scikit-learn>=1.0.0
 seaborn>=0.11.0
 jupyter>=1.0.0
-❗ Troubleshooting
+ Troubleshooting
 Problemas Comuns
 Arquivo não encontrado: Verifique se o CSV está na pasta data/
 
@@ -215,7 +215,7 @@ Funções de cálculo adicional em calculus.py
 
 Visualizações customizáveis em visualization.py
 
-🎓 Conclusões Educativas
+ Conclusões Educativas
 Este projeto demonstra na prática:
 
 Como ML pode aproximar funções complexas
