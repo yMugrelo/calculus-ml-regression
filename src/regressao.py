@@ -156,7 +156,6 @@ class RegressionModels:
         
         return pd.DataFrame(comparison)
 
-# Funções originais mantidas para compatibilidade
 def carregar_dados(caminho):
     return pd.read_csv(caminho)
 

@@ -1,6 +1,5 @@
 import numpy as np 
 from scipy.integrate import quad 
-#Integral definida 
 def compute_area_under_curve(fn, a, b):
     area, _ = quad(fn, a, b)
     return area
