@@ -29,7 +29,7 @@ def get_results_path(filename):
 
 def show_project_info():
     """Mostra informações do projeto"""
-    print("📊 Calculus ML Regression Project")
-    print("📍 Machine Learning com Cálculo Integral")
-    print("🚀 Desenvolvido para análise de dados matemáticos")
-    print(f"📁 Project root: {PROJECT_ROOT}")
+    print(" Calculus ML Regression Project")
+    print(" Machine Learning com Cálculo Integral")
+    print(" Desenvolvido para análise de dados matemáticos")
+    print(f" Project root: {PROJECT_ROOT}")

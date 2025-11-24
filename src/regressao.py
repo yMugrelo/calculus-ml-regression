@@ -16,7 +16,7 @@ class RegressionModels:
         
     def train_linear_regression(self, X_train, X_test, y_train, y_test):
         """Treina modelo de regressão linear"""
-        print("🧠 Treinando Regressão Linear...")
+        print(" Treinando Regressão Linear...")
         
         model = LinearRegression()
         model.fit(X_train, y_train)
@@ -36,14 +36,14 @@ class RegressionModels:
             'predictions': {'train': y_pred_train, 'test': y_pred_test}
         }
         
-        print("✅ Regressão Linear treinada!")
+        print("Regressão Linear treinada!")
         self._print_metrics("Treino", train_metrics)
         self._print_metrics("Teste", test_metrics)
         return model
     
     def train_polynomial_regression(self, X_train, X_test, y_train, y_test, degree=2):
         """Treina regressão polinomial"""
-        print(f"🎯 Treinando Regressão Polinomial (grau {degree})...")
+        print(f" Treinando Regressão Polinomial (grau {degree})...")
         
         poly = PolynomialFeatures(degree=degree)
         X_poly_train = poly.fit_transform(X_train)
@@ -67,7 +67,7 @@ class RegressionModels:
             'predictions': {'train': y_pred_train, 'test': y_pred_test}
         }
         
-        print(f"✅ Regressão Polinomial (grau {degree}) treinada!")
+        print(f" Regressão Polinomial (grau {degree}) treinada!")
         self._print_metrics("Treino", train_metrics)
         self._print_metrics("Teste", test_metrics)
         return model, poly
@@ -93,14 +93,14 @@ class RegressionModels:
             'predictions': {'train': y_pred_train, 'test': y_pred_test}
         }
         
-        print("✅ Ridge Regression treinada!")
+        print(" Ridge Regression treinada!")
         self._print_metrics("Treino", train_metrics)
         self._print_metrics("Teste", test_metrics)
         return model
     
     def train_lasso_regression(self, X_train, X_test, y_train, y_test, alpha=1.0):
         """Treina regressão Lasso"""
-        print(f"🎯 Treinando Lasso Regression (alpha={alpha})...")
+        print(f" Treinando Lasso Regression (alpha={alpha})...")
         
         model = Lasso(alpha=alpha)
         model.fit(X_train, y_train)
@@ -119,7 +119,7 @@ class RegressionModels:
             'predictions': {'train': y_pred_train, 'test': y_pred_test}
         }
         
-        print("✅ Lasso Regression treinada!")
+        print(" Lasso Regression treinada!")
         self._print_metrics("Treino", train_metrics)
         self._print_metrics("Teste", test_metrics)
         return model
@@ -134,12 +134,12 @@ class RegressionModels:
     
     def _print_metrics(self, dataset_name, metrics):
         """Imprime métricas formatadas"""
-        print(f"📊 {dataset_name} - MSE: {metrics['MSE']:.4f}, RMSE: {metrics['RMSE']:.4f}, MAE: {metrics['MAE']:.4f}, R²: {metrics['R²']:.4f}")
+        print(f" {dataset_name} - MSE: {metrics['MSE']:.4f}, RMSE: {metrics['RMSE']:.4f}, MAE: {metrics['MAE']:.4f}, R²: {metrics['R²']:.4f}")
     
     def compare_models(self):
         """Compara o desempenho de todos os modelos"""
         print("\n" + "="*50)
-        print("📈 COMPARAÇÃO DE MODELOS")
+        print(" COMPARAÇÃO DE MODELOS")
         print("="*50)
         
         comparison = []
@@ -201,4 +201,4 @@ def plotar_resultados(X, y, modelo, titulo, poly=None):
     plt.show()
 
 if __name__ == "__main__":
-    print("✅ regressao.py carregado com sucesso!")
+    print(" regressao.py carregado com sucesso!")
